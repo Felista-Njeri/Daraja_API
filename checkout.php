@@ -14,7 +14,7 @@ include 'accessToken.php';
    
 date_default_timezone_set('Africa/Nairobi');
 $processrequesturl = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest'; //USE SANDBOX URL IF TESTING
-$callbackurl = 'https://e257-41-215-89-132.ngrok-free.app/daraja_testing/callback.php'; //USE A LIVE WEBSITE URL OR NGROK IF YOU DONT HAVE A LIVE WEBSITE. THIS IS WHERE THE API WILL MAKE CALLBACKS
+$callbackurl = 'https://01-01-01.ngrok-free.app/folder_name/callback.php'; //USE A LIVE WEBSITE URL OR NGROK IF YOU DONT HAVE A LIVE WEBSITE. THIS IS WHERE THE API WILL MAKE CALLBACKS
 $passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"; //FOUND IN THE MPESA EXPRESS SIMULATE SECTION IN DARAJA WEBSITE
 $BusinessShortCode = '174379'; //FOUND IN MPESA EXPRESS SIMULATE SECTION IF CODING FOR LIVE WEBSITE USE REAL PAYBILL NUMBER
 $Timestamp = date('YmdHis');
